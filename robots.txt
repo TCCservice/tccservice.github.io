@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tccservice.github.io/sitemap.xml

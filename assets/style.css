@@ -1,0 +1,17 @@
+:root{--ink:#14212b;--sub:#4f5d68;--line:#dfe6ea;--soft:#f3f7f9;--brand:#0090c8;--brand-ink:#006f9c;--bg:#fff}
+*{box-sizing:border-box}html,body{margin:0}body{font-family:"Noto Sans KR",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;word-break:keep-all}
+a{color:var(--brand-ink)}.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line);background:#fff}header .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+.logo{font-weight:900;color:var(--ink);text-decoration:none;font-size:1.05rem}.logo span{color:var(--brand)}
+.call{background:var(--brand);color:#fff;text-decoration:none;font-weight:800;padding:8px 14px;border-radius:999px;font-size:.92rem}
+.hero{background:var(--soft);padding:44px 0 36px}.hero h1{font-size:clamp(1.5rem,4vw,2.1rem);line-height:1.35;margin:6px 0 12px}.eyebrow{color:var(--brand-ink);font-weight:800;font-size:.85rem;letter-spacing:.5px}
+.lead{color:var(--sub);font-size:1.02rem}main{padding:28px 0 48px}h2{font-size:1.3rem;margin:34px 0 10px}
+ul{padding-left:20px}li{margin:4px 0}.box{background:var(--soft);border-left:5px solid var(--brand);border-radius:8px;padding:14px 18px;margin:28px 0}
+.box h3{margin:0 0 6px;font-size:1.05rem}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:14px}
+.card{display:block;border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--ink);background:#fff}.card:hover{border-color:var(--brand)}
+.card .t{font-size:.8rem;color:var(--brand-ink);font-weight:800}.card b{display:block;margin:4px 0 6px;line-height:1.45}.card p{margin:0;color:var(--sub);font-size:.9rem}
+.cta{background:#102a43;color:#fff;border-radius:14px;padding:26px 22px;margin:36px 0 0;text-align:center}.cta p{color:#c5d3dc;margin:6px 0 14px}
+.cta a{display:inline-block;margin:4px;padding:10px 18px;border-radius:999px;font-weight:800;text-decoration:none}.cta .t1{background:var(--brand);color:#fff}.cta .t2{background:#fee500;color:#191919}.cta .t3{background:#fff;color:#102a43}
+.links a{display:block;padding:10px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:700}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--sub);font-size:.85rem}footer b{color:var(--ink)}
+@media(max-width:560px){header .wrap{height:54px}.call{padding:7px 12px;font-size:.85rem}}
